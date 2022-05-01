@@ -1,0 +1,7 @@
+{
+  "name": "qr-project",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
