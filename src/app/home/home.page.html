@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      QR App
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,13 +9,17 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">QR App</ion-title>
     </ion-toolbar>
   </ion-header>
 
+  <ion-button class="ion-padding" routerLink="/form">Edit VCard</ion-button>
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-    <qr-code [value]="qrData" [size]="400"></qr-code>
+
+    <ion-button routerLink="/with-mobile">QR con móvil</ion-button>
+    <ion-button routerLink="/without-mobile">QR sin móvil</ion-button>
+
   </div>
+
+
 </ion-content>

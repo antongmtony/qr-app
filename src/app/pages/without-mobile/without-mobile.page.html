@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button routerLink="/">Inicio</ion-button>
+    <ion-title>{{ name }} {{ surname }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h3>Scan me!</h3>
+  <qr-code [value]="qrData" id="qr" [size]="250"></qr-code>
+</ion-content>
